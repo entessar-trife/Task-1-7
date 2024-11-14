@@ -1,0 +1,55 @@
+.evanto_com {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.evanto_com h6 {
+  font-family: "Rajdhani";
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.evanto_com h6::before,
+.evanto_com h6::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 30%;
+  height: 1px;
+  background-color: rgb(209, 205, 205);
+}
+
+.evanto_com h6::before {
+  left: 0;
+}
+
+.evanto_com h6::after {
+  right: 0;
+}
+
+.evanto_logos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gray_img {
+  filter: grayscale(100%);
+  opacity: 0.4;
+}
+
+@media screen and (max-width:992px) {
+
+  .evanto_com h6::before,
+  .evanto_com h6::after,
+  .gray_img {
+    display: none;
+  }
+
+  .evanto_logos {
+    justify-content: center;
+  }
+}

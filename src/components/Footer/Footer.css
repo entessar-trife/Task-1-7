@@ -1,0 +1,171 @@
+footer {
+  background-color: var(--blue-color);
+  color: #fff;
+  padding: 70px 0;
+}
+
+footer p {
+  width: 250px;
+  margin: 30px 0;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 1.1rem;
+}
+
+.footer_icons {
+  margin: 20px 0;
+}
+
+.footer_icon {
+  color: #fff;
+  margin: 0 10px 0 0;
+  font-size: 40px;
+  border: 1px solid #fff;
+  padding: 10px;
+  transition: .5s;
+}
+
+.footer_icon:hover {
+  background-color: #fff;
+  color: #18185e;
+}
+
+footer h5 {
+  font-family: "Rajdhani";
+  font-weight: 600;
+  font-size: 1.6rem;
+  position: relative;
+}
+
+footer h5::before {
+  content: "";
+  width: 75px;
+  height: 2px;
+  background: linear-gradient(to right, #fff, #ffffffa5, #ffffff1d);
+  position: absolute;
+  bottom: -10px;
+}
+
+footer ul {
+  margin: 30px 0;
+}
+
+footer ul li {
+  margin-bottom: 20px;
+}
+
+footer ul li a {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #fff;
+  transition: .5s;
+}
+
+footer ul li a:hover {
+  background-color: #fff;
+  color: #18185e;
+  padding: 5px 8px;
+  border-radius: 10px;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.post_content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.post_content span:nth-child(1) {
+  color: rgb(165, 163, 163);
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+.contact_info {
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.contact_info span:nth-child(1),
+.contact_info span:nth-child(2) {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.contact_info input[type="email"]::placeholder {
+  font-family: "Rajdhani";
+}
+
+.contact_info input[type="email"] {
+  margin: 10px 0;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+}
+.email_input {
+  position: relative;
+}
+
+
+.email_input button {
+  background-color: var(--main-color);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 14px;
+  position: absolute;
+  right: 10px;
+  top: 16px;
+  transition: .5s;
+}
+
+.email_input button:hover {
+  background-color: #384cffd0;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.contact_info label {
+  margin-left: 10px;
+  font-family: "Rajdhani";
+  cursor: pointer;
+}
+
+.contact_info a {
+  color: #fff;
+  transition: .5s;
+  font-size: 1rem;
+}
+
+.contact_info a:hover {
+  color: var(--main-color);
+}
+
+.copy {
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 15px 0;
+  font-weight: 500;
+}
+
+@media screen and (max-width:768px) {
+  .email_input {
+    width: 260px;
+  }
+}

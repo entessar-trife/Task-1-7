@@ -1,0 +1,8 @@
+.contact_section_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 70px ;
+}

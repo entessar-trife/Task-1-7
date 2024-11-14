@@ -1,0 +1,126 @@
+.contact_section_1 {
+  padding-top: 70px;
+}
+
+.contact_info_com {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 30px 40px;
+}
+
+.contact_info_com a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Rajdhani";
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 5px;
+  transition: .5s;
+}
+
+.contact_info_com a:hover {
+  color: var(--blue-color);
+}
+
+.bg_blue {
+  background-color: var(--blue-color);
+}
+
+.com_width {
+  width: 500px;
+}
+
+.column {
+  flex-direction: column-reverse;
+}
+
+.video_img {
+  border-radius: 0 0 10px 10px;
+  width: 100%;
+}
+
+.with_image {
+  border-radius: 10px 10px 0 0;
+}
+
+.without_image {
+  border-radius: 10px;
+}
+
+.video_icon {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--main-color);
+  background-color: #fff;
+  padding: 16px;
+  font-size: 3.3rem;
+  border-radius: 50%;
+  transform: rotate(90deg);
+}
+
+.border_1 {
+  padding: 0 70px;
+  border-left: 1px solid rgb(174, 170, 170);
+  border-right: 1px solid rgb(174, 170, 170);
+}
+
+.border_2 {
+  padding: 40px 0;
+  border-top: 1px solid rgb(174, 170, 170);
+  border-bottom: 1px solid rgb(174, 170, 170);
+}
+
+.contact_icon {
+  color: var(--main-color);
+  background-color: #fff;
+  padding: 10px;
+  font-size: 2.8rem;
+  border-radius: 50%;
+  border: 2px dashed var(--main-color);
+  margin-right: 20px;
+  transition: .5s;
+}
+
+.white_icon {
+  background-color: transparent;
+  color: #fff;
+  border: 2px dashed #fff;
+}
+
+.contact_icon:hover {
+  transform: scale(1.2);
+}
+
+
+@media screen and (max-width:992px) {
+  .contact_info_com .email {
+    border: 0;
+    padding: 0;
+  }
+
+  .border_1 {
+    border: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width:576px) {
+  .com_width {
+    width: 100%;
+  }
+
+  .contact_info_com a {
+    font-size: 1.2rem;
+  }
+
+  .contact_icon {
+    font-size: 2.5rem;
+  }
+
+}

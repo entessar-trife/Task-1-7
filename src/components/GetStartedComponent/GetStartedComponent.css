@@ -1,0 +1,48 @@
+.started_com {
+  width: 400px;
+}
+
+.started_com h4 {
+  font-family: "Rajdhani";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.started_com p {
+  color: rgb(137, 133, 133);
+  margin-bottom: 30px;
+}
+
+.started_com label {
+  font-weight: bold;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.started_com input {
+  height: 30px;
+}
+
+.started_com input,
+textarea {
+  border: 1px solid rgb(185, 184, 184);
+  border-radius: 5px;
+}
+
+textarea {
+  height: 200px;
+}
+
+@media screen and (max-width:576px) {
+
+  .started_com,
+  .inputs div:nth-child(1),
+  .inputs div:nth-child(2) {
+    width: 100%;
+  }
+}

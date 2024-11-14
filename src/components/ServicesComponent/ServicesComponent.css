@@ -1,0 +1,25 @@
+.services_component {
+  width: 270px;
+}
+
+.gray_number {
+  color: transparent;
+  font-size: 3rem;
+  -webkit-text-stroke: 0.5px gray;
+}
+
+.white_number {
+  color: transparent;
+  font-size: 3rem;
+  -webkit-text-stroke: 0.5px #fff;
+}
+
+.services_component h4 {
+  color: white;
+  margin: 20px 0;
+}
+
+.services_component p {
+  color: rgb(192, 189, 189);
+  width: 220px;
+}

@@ -1,0 +1,47 @@
+.services_card {
+  width: 250px;
+  background-color: #f3f7fb;
+  padding: 30px 20px;
+  border-radius: 30px;
+  border: 1px solid #d4dcff;
+}
+
+.services_card img {
+  border: 1px solid #d4dcff;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.services_card h4 {
+  font-family: "Rajdhani";
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.services_card p {
+  color: #a7afc1;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.services_card a {
+  color: #454452;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border: 1px solid #d4dcff;
+  border-radius: 30px;
+  padding: 8px 20px;
+  transition: .5s;
+}
+
+.services_card a:hover {
+  background-color: var(--main-color);
+  color: #fff;
+  border: none;
+}
+
+@media screen and (max-width:768px) {
+  .display {
+    display: none;
+  }
+}

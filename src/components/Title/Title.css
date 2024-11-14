@@ -1,0 +1,93 @@
+.title_component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.title {
+  display: flex;
+  color: var(--main-color);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.title_arrow_right,
+.title_arrow_left {
+  width: 40px;
+  height: 1.5px;
+}
+
+.title_arrow_left {
+  margin-left: -10px;
+  background: linear-gradient(to left, #384cff00, #384cff67, #384cff);
+}
+
+.title_arrow_right {
+  margin-right: -10px;
+  background: linear-gradient(to right, #384cff00, #384cff67, #384cff);
+}
+
+h2 {
+  font-family: "Rajdhani";
+  font-weight: bold;
+  font-size: 2.5rem;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.center_1 {
+  margin: 20px auto 0 auto;
+  text-align: center;
+}
+
+.center_2 {
+  margin: 20px auto 0 auto;
+}
+
+.back,
+.forward {
+  font-size: 3rem;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 1px 1px 5px rgb(190, 188, 188);
+  margin: 10px 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.back:hover,
+.forward:hover {
+  transform: scale(1.2);
+}
+
+.back {
+  color: black;
+  background-color: #fff;
+}
+
+.forward {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.members_btn {
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 10px 15px;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+
+.members_btn:hover {
+  background-color: #384cffca;
+}
+
+
+@media (max-width:576px) {
+  h2 {
+    font-size: 2.2rem;
+    width: 320px;
+  }
+}

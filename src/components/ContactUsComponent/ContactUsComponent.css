@@ -1,0 +1,86 @@
+.contact_us {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: var(--main-color);
+  padding: 30px;
+  border-radius: 20px;
+  position: relative;
+  margin: 70px auto -130px auto;
+}
+
+.contact_us .ctaThumb1_1 {
+  width: 170px;
+  margin: 10px 0;
+}
+
+.contact_us .ctaShape1_1 {
+  width: 300px;
+  position: absolute;
+  bottom: 15px;
+  right: 200px;
+}
+
+.contact_us_text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 10px 0;
+}
+
+.expert_hosting {
+  font-family: "Rajdhani";
+  width: 400px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.contact_btn {
+  padding: 15px 20px;
+  z-index: 4;
+}
+.contact_btn:hover {
+  background-color: rgb(194, 190, 190);
+}
+/* .contact_us button {
+  background-color: #fff;
+  padding: 15px 20px;
+  margin: 0 0 10px 20px;
+  border-radius: 30px;
+  z-index: 3;
+  transition: .5s;
+  font-weight: 500;
+  animation: 3s button infinite linear;
+} */
+/* .contact_us button:hover {
+  background-color: #ffffffa4;
+} */
+/* .black_title {
+  color: black;
+} */
+
+/* @keyframes button {
+  0%  {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5%);
+  }
+} */
+
+@media (max-width:768px) {
+  .contact_us {
+    justify-content: space-between;
+    padding: 30px 50px;
+  }
+
+  .expert_hosting {
+    width: 100%;
+  }
+
+  .contact_us .ctaShape1_1 {
+    bottom: 5px;
+    right: 90px;
+  }
+}

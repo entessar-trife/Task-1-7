@@ -1,0 +1,167 @@
+.HomeHero {
+  background-color: var(--main-color);
+  background-image:
+    url("../../assets/images/Home/hero/heroShape1_1.webp"),
+    url("./../../assets/images/Home/hero/heroShape1_2.webp");
+  background-repeat: no-repeat;
+  background-position: right bottom, left bottom;
+  background-size: 300px, 150px;
+  height: calc(100vh - 35px);
+  margin: 35px 30px 0 30px;
+  border-radius: 40px;
+  color: #fff;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.hero_span {
+  border: 1px solid #fff;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+h1 {
+  font-family: "Rajdhani";
+  font-weight: bold;
+  font-size: 2.5rem;
+  width: 500px;
+  margin-top: 20px;
+}
+
+.pulse_icon {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.HomeHero ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-size: 0.9rem;
+  margin-right: 50px;
+}
+
+.orange_btn {
+  background-color: #f98600;
+  color: #fff;
+  padding: 10px 30px;
+}
+
+.orange_btn:hover {
+  background-color: #f98500e1;
+}
+
+.hero_thumb {
+  width: 300px;
+}
+
+.profile_shape {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #ffffff3d;
+  padding: 10px;
+  border-radius: 20px 20px 0 0;
+  margin-top: 70px;
+  font-size: 0.7rem;
+  width: 80%;
+}
+
+.profile_shape .trustipilot {
+  border-right: 1px solid rgb(206, 203, 203);
+  padding-right: 15px;
+}
+
+.profile_shape img {
+  width: 80px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.star_icon {
+  color: #fbb03b;
+  margin: 0 2px;
+}
+
+.reviews {
+  font-size: 0.8rem;
+}
+
+.green_star {
+  color: rgb(58, 191, 58);
+  margin: 2px 3px 0 0;
+}
+
+.HomeHero h6 {
+  font-family: "Rajdhani";
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero_Shape_3 {
+  background-color: #fff;
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  padding: 10px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  width: 100px;
+}
+
+
+@media (max-width:992px) {
+  .HomeHero {
+    background-image: none;
+    flex-wrap: wrap-reverse;
+    height: 100%;
+    padding: 80px 20px 0 20px;
+    margin: 35px 0 0 0;
+  }
+
+  .hero_Shape_3 {
+    display: none;
+  }
+
+  .left_side {
+    margin: 0 30px;
+  }
+
+  .profile_shape {
+    width: 100%;
+  }
+}
+
+@media (max-width:576px) {
+  .hero_span {
+    font-size: 0.5rem;
+  }
+
+  .HomeHero h1 {
+    width: 100%;
+
+  }
+
+  .hero_thumb {
+    width: 250px;
+  }
+}
+
+@media (max-width:474px) {
+  .profile_shape .trustipilot {
+    padding-bottom: 30px;
+    border: none;
+  }
+
+  .profile_shape .google {
+    padding-top: 30px;
+    border-top: 1px solid rgb(206, 203, 203);
+  }
+}

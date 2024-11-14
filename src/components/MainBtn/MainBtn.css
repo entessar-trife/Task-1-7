@@ -1,0 +1,18 @@
+.button {
+  border: none;
+  border-radius: 50px;
+  text-transform: uppercase;
+  transition: .5s;
+  font-weight: 500;
+  animation: 3s button infinite linear;
+}
+
+@keyframes button {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-5%);
+  }
+}

@@ -1,0 +1,48 @@
+.second_hero {
+  height: 60vh;
+  background: linear-gradient(to right, rgba(93, 91, 91, 0.851), #1e1eb5),
+    url("./../../assets/images/About/hero/hero image.webp");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  margin-top: 72px;
+  position: relative;
+}
+
+.element {
+  width: 220px;
+  position: absolute;
+  left: 0;
+  top: 30px;
+}
+
+.line {
+  width: 400px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.hero_text_2 {
+  color: #fff;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero_text_2 h3 {
+  font-family: "Rajdhani";
+  font-weight: bold;
+  font-size: 3.3rem;
+}
+
+@media screen and (max-width:450px) {
+  .hero_text_2 h3 {
+    font-size: 2.2rem;
+  }
+}

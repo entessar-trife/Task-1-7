@@ -1,0 +1,88 @@
+.connected_component {
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 50px 0 40px 0;
+  margin: 150px auto -70px auto;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  border-radius: 20px;
+}
+
+.connected_component span {
+  font-family: "Rajdhani";
+  margin-right: 150px;
+  margin-left: 20px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  width: 300px;
+}
+
+.ctaThumb {
+  width: 290px;
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  z-index: 5;
+}
+
+.connected_btn {
+  padding: 15px 20px;
+  margin-right: 50px;
+}
+
+.connected_btn:hover {
+  background-color: rgb(194, 190, 190);
+}
+
+.ctaShape_1 {
+  width: 500px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.ctaShape_2 {
+  width: 70px;
+  position: absolute;
+  bottom: 0;
+  left: 3%;
+}
+
+@keyframes button {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-5%);
+  }
+}
+
+
+@media screen and (max-width:1200px) {
+  .connected_component span {
+    margin-right: 20px;
+  }
+
+}
+
+@media screen and (max-width:992px) {
+
+  .ctaThumb,
+  .ctaShape_1,
+  .ctaShape_2 {
+    display: none;
+  }
+
+  .connected_component {
+    justify-content: space-between;
+  }
+
+  .connected_component button {
+    margin: 15px auto 0 auto;
+  }
+}

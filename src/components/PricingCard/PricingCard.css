@@ -1,0 +1,95 @@
+.pricing_card {
+  width: 350px;
+  border: 1px solid rgb(216, 213, 213);
+  border-radius: 30px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.pricing_card_title_1 {
+  font-family: "Rajdhani";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+.pricing_card_title_2 {
+  font-family: "Rajdhani";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--blue-color);
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+.pricing_card .PricingIcon1_1 {
+  width: 65px;
+}
+
+.month {
+  font-weight: 500;
+}
+
+.true {
+  color: var(--main-color);
+  font-size: 1.1rem;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.false {
+  font-weight: 600;
+  margin-right: 12px;
+  font-size: 1.2rem;
+  color: red;
+}
+
+.pricing_card_content {
+  margin: 30px 10px;
+  color: #595959;
+  font-weight: 450;
+  font-size: 1rem;
+  line-height: 37px;
+}
+
+.pricing_card .started_now_1 {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: var(--main-color);
+  border: 1px solid rgb(216, 213, 213);
+  border-radius: 15px;
+  padding: 10px 0;
+  transition: .7s;
+  width: 100%;
+}
+
+.pricing_card .started_now_1:hover {
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+}
+
+.pricing_card .started_now_2 {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background-color: #18185e;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 0;
+  transition: .7s;
+  width: 100%;
+}
+
+.pricing_card .started_now_2:hover {
+  background-color: #fff;
+  border: 1px solid rgb(216, 213, 213);
+  color: #18185e;
+}

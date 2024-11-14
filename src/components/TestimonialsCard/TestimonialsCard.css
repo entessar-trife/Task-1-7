@@ -1,0 +1,71 @@
+.client_card {
+  font-family: "Rajdhani";
+  width: 360px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 30px 0 10px 0;
+  position: relative;
+}
+
+.white_card {
+  background-color: #fff;
+}
+
+.blue_card {
+  background-color: var(--main-color);
+}
+
+.stars_icon {
+  font-size: 1.3rem;
+  color: var(--yellow-color);
+  margin-top: 10px;
+}
+
+.client_card p {
+  line-height: 30px;
+  margin: 15px 0;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.white {
+  color: #fff;
+}
+
+.gray {
+  color: gray;
+}
+
+.client_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.client_info span {
+  font-family: "Rajdhani";
+}
+
+.client_info span:nth-child(1) {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.blacK_name {
+  color: black;
+}
+
+.white_name {
+  color: #fff;
+}
+
+.testimonialShape3_1 {
+  position: absolute;
+  top: 30px;
+  right: -5px;
+}
+
+@media screen and (max-width:768px) {
+  .display {
+    display: none;
+  }
+}

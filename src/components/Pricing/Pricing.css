@@ -1,0 +1,74 @@
+.pricing {
+  padding: 70px 0;
+  position: relative;
+}
+
+.pricing_shape_2 {
+  position: absolute;
+  right: 60px;
+  top: 80px;
+}
+
+.title_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.month_year {
+  border: 1px solid #e0e5ff;
+  font-size: 1rem;
+  border-radius: 50px;
+  padding: 5px 3px;
+  margin: 0 5px 20px 5px;
+}
+
+.month_year button {
+  margin: 0 10px;
+  border: none;
+}
+
+.month_year :nth-child(1) {
+  background-color: var(--main-color);
+  color: white;
+  padding: 6px 15px;
+  border-radius: 50px;
+}
+
+.month_year button:nth-child(2) {
+  background-color: #fff;
+  color: gray;
+}
+
+.pricing_icon {
+  margin: 15px 5px 0 5px;
+}
+
+.save {
+  color: var(--main-color);
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 15px 5px 0 5px;
+}
+
+.pricing_shape_1 {
+  width: 110px;
+  position: absolute;
+  top: 80%;
+}
+
+.pricing_cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+@media (max-width:768px) {
+
+  .pricing_shape_1,
+  .pricing_shape_2 {
+    display: none;
+  }
+}

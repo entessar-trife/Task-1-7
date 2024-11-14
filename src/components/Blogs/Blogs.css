@@ -1,0 +1,9 @@
+.blogs {
+  padding-top: 70px;
+}
+
+.blogs_cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
